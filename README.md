@@ -11,3 +11,6 @@ You will need the following for this to work properly:
 
 ## Is there a tutorial for using this?
 Not yet, but soon.
+
+## How should it look when it's working?
+![Discord Presence on PS3](https://raw.githubusercontent.com/Kobun42/PS3RP/main/images/demo.png)

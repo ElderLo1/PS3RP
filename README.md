@@ -12,5 +12,8 @@ You will need the following for this to work properly:
 ## Is there a tutorial for using this?
 Not yet, but soon.
 
+## Is this tool 100% safe for my PSN account?
+I'd say as long as you don't modify it to spam requests to the PSN servers or something stupid like that, you're safe. but please do take this with a grain of salt. I am not repsonsible for anything that happens to your PSN account by using this.
+
 ## How should it look when it's working?
 ![Discord Presence on PS3](https://raw.githubusercontent.com/Kobun42/PS3RP/main/images/demo.png)

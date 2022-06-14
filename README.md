@@ -10,10 +10,13 @@ You will need the following for this to work properly:
 - A Discord Account and access to the Developer Portal
 
 ## Is there a tutorial for using this?
-Yes! Go to this link: https://github.com/Kobun42/PS3RP/wiki/Getting-Started
+Yes! Go to the [Getting Started](https://github.com/Kobun42/PS3RP/wiki/Getting-Started) wiki page to learn how to set up this tool!
 
 ## Is this tool 100% safe for my PSN account?
 I'd say as long as you don't modify it to spam requests to the PSN servers or something stupid like that, you're safe. but please do take this with a grain of salt. I am not repsonsible for anything that happens to your PSN account by using this.
+
+## I have a question about this tool!
+Please check the [Q&A](https://github.com/Kobun42/PS3RP/wiki/Q-&-A) first before asking me. If your question has not been answered in the Q&A, go ahead and ask me.
 
 ## How should it look when it's working?
 ![Discord Presence on PS3](https://raw.githubusercontent.com/Kobun42/PS3RP/main/images/demo.png)

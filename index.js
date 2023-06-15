@@ -29,10 +29,17 @@ uInfo.then(function(result) {
     //console.log(result.profile);	
 	const profile = result.profile;
 	const pres = profile.presences;
+	gameTitle = null;
 	ste = profile.onlineId;
 	
 	if (pres[0].titleName != null) {
-	    stat = pres[0].titleName + " (" + pres[0].platform + ")";
+		if (pres[0].npTitleId == "NPJA00040_00" || pres[0].npTitleId == "NPIA00183_00")
+		{
+			gameTitle = "PlayStation Home (v1.83)";
+		} else {
+			gameTitle = pres[0].titleName
+		}
+	    stat = gameTitle + " (" + pres[0].platform + ")";
 	} else if (profile.primaryOnlineStatus == 'online') {
 	    stat = "Not in-game";
 	} else {

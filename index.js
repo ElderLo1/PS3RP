@@ -30,12 +30,17 @@ uInfo.then(function(result) {
 	const profile = result.profile;
 	const pres = profile.presences;
 	gameTitle = null;
-	ste = profile.onlineId;
+	ste = "";
 	
 	if (pres[0].titleName != null) {
 		if (pres[0].npTitleId == "NPJA00040_00" || pres[0].npTitleId == "NPIA00183_00")
 		{
 			gameTitle = "PlayStation Home (v1.83)";
+			if (pres[0].gameStatus != null) {
+			    ste = pres[0].gameStatus + " (" + profile.onlineId + ")";	
+			} else {
+			    ste = "???" + " (" + profile.onlineId + ")";	
+			}
 		} else {
 			gameTitle = pres[0].titleName
 		}
